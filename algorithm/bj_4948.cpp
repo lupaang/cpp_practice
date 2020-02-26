@@ -53,7 +53,7 @@ int main()
         
         else
         {
-            for (int i = input; i <= (input * 2); i++)
+            for (int i = input + 1; i <= (input * 2); i++)
             {
                 count += check[i];
             }

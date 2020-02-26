@@ -44,9 +44,7 @@ int main()
 {
     int N;
 
-    // cin >> N;
-
-    N = 4;
+    cin >> N;
 
     cout << fib(N);
 }

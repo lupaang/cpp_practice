@@ -15,9 +15,10 @@ using namespace std;
 
 int main()
 {
-    const int X = 1000000;
-    int M = 10;
-    int N = 100000;
+    const int X = 1000001;
+    int M, N;
+    
+    cin >> M >> N;
 
     bool num[X];
 
@@ -47,5 +48,4 @@ int main()
             cout << i << "\n";
         }
     }
-    
 }
